@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "baseUrl": ".",
+        "paths": {
+            "Atoms/*": ["./Atoms/*"],
+            "helpers/*": ["./helpers/*"]
+        }
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}
